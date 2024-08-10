@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Calistoga&family=Mitr:wght@200;300;400;500;600;700&display=swap");
+
+.body {
+  display: block;
+  width: 100vw; /* ความกว้างเต็มหน้าจอ */
+  height: 100vh; /* ความสูงเต็มหน้าจอ */
+  // background-image: url('https://i.pinimg.com/564x/fa/62/90/fa6290399d7b064d64ab7d4813c4de6a.jpg');
+  background-size: cover; /* ทำให้ภาพขยายเต็มพื้นที่ */
+  background-position: center; /* จัดภาพให้อยู่ตรงกลาง */
+  background-repeat: no-repeat; /* ไม่ให้ภาพซ้ำ */
+  margin: 0;
+  padding: 0;
+}
+
+
+.Clogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 27px;
+  color: rgb(174, 1, 1);
+}
+
+.material-symbols-outlined {
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.Buttonlogin {
+  background-color: rgb(174, 1, 1);
+  width: 90px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,52 @@
+<div class="body">
+    <mat-toolbar>
+        <img class="toolbar"
+            src="https://cdn-global-eude.popmart.com/global-web/eude-prod/assets/images/logo.png?x-oss-process=image/format,webp"
+            alt="" style="width: 100px;">
+        <div style="flex-grow: 1"></div>
+        <button mat-button>
+            <span style="text-decoration: underline;" [routerLink]="['/']" >Back</span>
+        </button>
+    </mat-toolbar> 
+    <div style="display: flex; flex-direction: column;">
+    </div >
+    <div class="Bregister">
+        <span  class="anton-regular">Register to use</span>
+
+        <span style="margin-top: 20px; margin-right: 270px;">
+            Username
+        </span>
+        <div>
+            <mat-form-field appearance="outline" style="width: 350px; margin-top: 5px;">
+                <input matInput placeholder="Enter no more than 20 characters.">
+            </mat-form-field>
+        </div>
+        <span style=" margin-right: 255px;">
+            Email/Phone
+        </span>
+        <div>
+            <mat-form-field appearance="outline" style="width: 350px; margin-top: 5px;">
+                <input matInput placeholder="Email/Phone">
+            </mat-form-field>
+        </div>
+        <span style="margin-right: 270px;">
+            Password
+        </span>
+        <div>
+            <mat-form-field appearance="outline" style="width: 350px; margin-top: 5px;">
+                <input type="password" matInput placeholder="Password">
+            </mat-form-field>
+        </div>
+        <span style="margin-right: 220px;">
+            Confirmpassword
+        </span>
+        <div>
+            <mat-form-field appearance="outline" style="width: 350px; margin-top: 5px;">
+                <input type="password" matInput placeholder="Confirmpassword">
+            </mat-form-field>
+        </div>
+        <button mat-fab extended class="Buttonregister" >
+            Singin
+        </button>
+    </div>    
+</div>  

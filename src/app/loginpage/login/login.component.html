@@ -1,0 +1,51 @@
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<div class="body">
+    <mat-toolbar>
+        <img class="toolbar"
+            src="https://cdn-global-eude.popmart.com/global-web/eude-prod/assets/images/logo.png?x-oss-process=image/format,webp"
+            alt="" style="width: 100px;">
+        <div style="flex-grow: 1"></div>
+        <button mat-button>
+            <span style="text-decoration: underline;">Back</span>
+        </button>
+    </mat-toolbar>
+    <div class="Clogin">
+        <mat-card style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); ">
+            <div
+                style="display: flex; align-items: center; flex-direction: column; width: 500px; justify-content: center;">
+                <div style="display: flex; align-items: center; margin-top: 20px;">
+                    <span class="anton-regular">LOGIN POPMARTSHOP</span>
+                    <span class="material-symbols-outlined">
+                        weight
+                    </span>
+                </div>
+                <span style="margin-top: 20px; margin-right: 180px;">
+                    Email/Phone/Username
+                </span>
+                <div>
+                    <mat-form-field appearance="outline" style="width: 350px; margin-top: 5px;">
+                        <input matInput placeholder="Email/Phone/Username">
+                    </mat-form-field>
+                </div>
+                <span style="margin-right: 270px;">
+                    Password
+                </span>
+                <div>
+                    <mat-form-field appearance="outline" style="width: 350px; margin-top: 5px;">
+                        <input type="password" matInput placeholder="Password">
+                    </mat-form-field>
+                </div>
+                <div style="display: flex; flex-direction: row; margin-top: 30px;">
+                    <button mat-button style="margin-bottom: 20px; margin-right: 200px;" [routerLink]="['/register']">
+                        <span style="text-decoration: underline;">Singup</span>
+                    </button>
+                    <button mat-fab extended class="Buttonlogin" >
+                        Login
+                    </button>
+                </div>
+            </div>
+        </mat-card>
+    </div>
+</div>
